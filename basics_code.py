@@ -32,3 +32,13 @@ tuple1 = (1,3,5.6,('viplove'),("apple ,banana"))
 print(tuple1)
 dict1 = {"name":"viplove","age":23,"city":"dewas"}
 print(dict1)
+
+# .............................operators..........................
+
+print(5+6)
+print(15-6)
+print(15*6)
+print(15/6)
+print(15//6)
+print(15%6)
+print(5**6)
