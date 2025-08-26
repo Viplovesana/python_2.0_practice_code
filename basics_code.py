@@ -35,10 +35,40 @@ print(dict1)
 
 # .............................operators..........................
 
-print(5+6)
+print(5+6)          
 print(15-6)
 print(15*6)
 print(15/6)
 print(15//6)
 print(15%6)
 print(5**6)
+
+# .................................calculator...........................
+
+operator = input("Enter the operator to calculate ")
+number1 = int(input("Enter the 1st value to calculate "))
+number2 = int(input("Enter the 2nd value to calculate "))
+
+if operator == "+":
+    print("result : ",number1+number2 )
+elif operator == "-":
+    print("result : ",number1-number2 )
+elif operator == "*":
+    print("result : ",number1*number2 )
+elif operator == "/":
+    if number1 or number1 == 0:
+        print("cants divisble by zero ")
+    else:
+        print("result : ",number1/number2 )    
+else:
+    print("invalid")
+# ......................................end.......................................
+
+
+
+
+
+
+
+
+
