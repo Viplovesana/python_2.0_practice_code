@@ -157,7 +157,7 @@ print(tuple1.index("rohan"))'''
 
 # .....................inbuilt func and methods of Dict..................
 
-student = {"name":"viplove","age":23,"course":"python"}
+'''student = {"name":"viplove","age":23,"course":"python"}
 print(student)
 student.update({"gender":"male"})
 print(student)
@@ -179,7 +179,21 @@ print(student.values())
 print(student.items())
 
 newitem = student.copy()
-print(newitem)
+print(newitem)'''
+
+# ..............................if-else-statement------------------------------
+
+a = int(input("Enter your Age : "))
+print("OK your age is :",a)
+print(a>18)
+print(a<=18)
+print(a == 18)
+print(a!=18)
+if a>18:
+    print("yes you can drive a car")
+else:
+    print("you cannot drive a car")
+
 
 
 
