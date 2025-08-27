@@ -57,7 +57,7 @@ else:
 #...........................................................
 # .......................MATCH CASE.........................
 
-x = int(input("Enter the number : "))
+'''x = int(input("Enter the number : "))
 
 match x:
     case 0 :
@@ -69,7 +69,7 @@ match x:
     case _ if x!=80:
         print(x,"is not 80") 
     case _:
-        print(x)
+        print(x)'''
 
 #............................................................  
          
