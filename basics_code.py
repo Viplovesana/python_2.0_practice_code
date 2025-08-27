@@ -75,12 +75,52 @@ d = 9
 print(c+d)
 
 # ..........................................strings....................................
-
+# Methods of String
 # strings are immutable .....
-a = "viplove"
+a = "hello viplove sana hello !!!"
 print(len(a))
 print(a.upper())
 print(a.lower())
+print(a.replace("viplove","viplovesana"))
+print(a.split(" "))
+blogheading = "introduction tO jS"
+print(blogheading.capitalize())
+
+str1 = "welcone to the console!!!"
+print(len(str1))
+print(len(str1.center(50)))
+print(str1.center(50))
+print(a.count("hello"))
+print(str1.endswith(" !!! "))
+
+str1 = "he's name is viplove. He is an honest man. "
+print(str1.find("is"))
+print(str1.find("ishh"))
+
+str1 = "WelcomeToTheconsole"
+print(str1.isalnum())
+
+str1 = "Welcome"
+print(str1.isalpha())
+print(str1.islower())
+
+str1 = "We wish you a marry christmas\n"
+print(str1.isprintable())
+
+str1 = "  "
+print(str1.isspace())
+
+str1 = "World Health Organisation"
+print(str1.istitle())
+
+str1 = "Python is a Interpreted Language"
+print(str1.swapcase())
+
+str1 = "he's name is viplove. He is an honest man. "
+print(str1.title())
+
+
+
 
 
 
