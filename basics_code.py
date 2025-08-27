@@ -45,39 +45,39 @@
 
 # .................................calculator...........................
 
-# operator = input("Enter the operator to calculate ")
-# number1 = int(input("Enter the 1st value to calculate "))
-# number2 = int(input("Enter the 2nd value to calculate "))
+'''operator = input("Enter the operator to calculate ")
+number1 = int(input("Enter the 1st value to calculate "))
+number2 = int(input("Enter the 2nd value to calculate "))
 
-# if operator == "+":
-#     print("result : ",number1+number2 )
-# elif operator == "-":
-#     print("result : ",number1-number2 )
-# elif operator == "*":
-#     print("result : ",number1*number2 )
-# elif operator == "/":
-#     if number1 or number1 == 0:
-#         print("cants divisble by zero ")
-#     else:
-#         print("result : ",number1/number2 )    
-# else:
-#     print("invalid Operator")
+if operator == "+":
+    print("result : ",number1+number2 )
+elif operator == "-":
+    print("result : ",number1-number2 )
+elif operator == "*":
+    print("result : ",number1*number2 )
+elif operator == "/":
+    if number1 or number1 == 0:
+        print("cants divisble by zero ")
+    else:
+        print("result : ",number1/number2 )    
+else:
+    print("invalid Operator")'''
 # ......................................end.......................................
 
 # ....................................type casting or converssion........................
 
-a = "5"
+'''a = "5"
 b = "8"
 # the conversion of one datatype into another datatype iss called typecasting inn python this is
 print (int(a)+int(b)) 
 c = 9.8
 d = 9
-print(c+d)
+print(c+d)'''
 
 # ..........................................strings....................................
 # Methods of String
 # strings are immutable .....
-a = "hello viplove sana hello !!!"
+'''a = "hello viplove sana hello !!!"
 print(len(a))
 print(a.upper())
 print(a.lower())
@@ -117,16 +117,16 @@ str1 = "Python is a Interpreted Language"
 print(str1.swapcase())
 
 str1 = "he's name is viplove. He is an honest man. "
-print(str1.title())
+print(str1.title())'''
 
 # .....................inbuilt methods of list......................................................................
 
-list1 = ['apple','banana','mango']
+'''list1 = ['apple','banana','mango']
 list1.append("lichy")
 list1.insert(3,"orange")
 list1.extend(["kiwi","papaya"])
 list1.remove("orange")
-list1.pop()   
+list1.pop()         
 list1.clear()   
 
 list2 = ['apple','banana','mango',"apple"]
@@ -139,7 +139,21 @@ print(len(list3))
 
 list4 =['apple','banana','mango',"apple"]
 b = list4.copy()
-print(b)
+print(b)'''
+
+# .....................inbuilt func and methods of tuple..................
+
+tuple1 = ("viplove","piyush","rohan","2","5","2","2")
+print(tuple1)
+print(len(tuple1))
+print(min(tuple1))
+print(max(tuple1))
+# print(sum(tuple1))
+print(any(tuple1))
+print(all(tuple1))
+print(tuple1.count("2"))
+print(tuple1.index("rohan"))
+
 
 
 
