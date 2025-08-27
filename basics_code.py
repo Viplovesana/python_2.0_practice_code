@@ -119,6 +119,33 @@ print(str1.swapcase())
 str1 = "he's name is viplove. He is an honest man. "
 print(str1.title())
 
+# .....................inbuilt methods of list......................................................................
+
+list1 = ['apple','banana','mango']
+list1.append("lichy")
+list1.insert(3,"orange")
+list1.extend(["kiwi","papaya"])
+list1.remove("orange")
+list1.pop()   
+list1.clear()   
+
+list2 = ['apple','banana','mango',"apple"]
+print(list2.index("apple"))   
+print(list2.count("apple"))  
+
+list3= ['apple','banana','mango',"apple"]
+print(list3.reverse())
+print(len(list3))
+
+list4 =['apple','banana','mango',"apple"]
+b = list4.copy()
+print(b)
+
+
+
+
+
+
 
 
 
