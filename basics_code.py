@@ -143,7 +143,7 @@ print(b)'''
 
 # .....................inbuilt func and methods of tuple..................
 
-tuple1 = ("viplove","piyush","rohan","2","5","2","2")
+'''tuple1 = ("viplove","piyush","rohan","2","5","2","2")
 print(tuple1)
 print(len(tuple1))
 print(min(tuple1))
@@ -152,7 +152,36 @@ print(max(tuple1))
 print(any(tuple1))
 print(all(tuple1))
 print(tuple1.count("2"))
-print(tuple1.index("rohan"))
+print(tuple1.index("rohan"))'''
+
+
+# .....................inbuilt func and methods of Dict..................
+
+student = {"name":"viplove","age":23,"course":"python"}
+print(student)
+student.update({"gender":"male"})
+print(student)
+
+student.pop("age")
+print(student)
+
+student.popitem()
+print(student)
+
+# student.clear()
+# print(student)
+print(student.get("name"))
+
+print(student.keys())
+
+print(student.values())
+
+print(student.items())
+
+newitem = student.copy()
+print(newitem)
+
+
 
 
 
