@@ -181,18 +181,7 @@ print(student.items())
 newitem = student.copy()
 print(newitem)'''
 
-# ..............................if-else-statement------------------------------
 
-a = int(input("Enter your Age : "))
-print("OK your age is :",a)
-print(a>18)
-print(a<=18)
-print(a == 18)
-print(a!=18)
-if a>18:
-    print("yes you can drive a car")
-else:
-    print("you cannot drive a car")
 
 
 
