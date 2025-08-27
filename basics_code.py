@@ -74,6 +74,14 @@ c = 9.8
 d = 9
 print(c+d)
 
+# ..........................................strings....................................
+
+# strings are immutable .....
+a = "viplove"
+print(len(a))
+print(a.upper())
+print(a.lower())
+
 
 
 
