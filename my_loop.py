@@ -49,9 +49,24 @@ else:
 '''for i in range(11):
     if (i == 10):
         break
-    print("5 *",i+1,"=",5*(i+1))'''
+    print("5 *",i+1,"=",5*(i+1))
+'''
+
+'''for i in range(12):
+    if (i == 10):
+        print("skip the itration")
+        continue
+    print("5 *",i,"=",5*i) '''   
     
-# ..............................................
+# ............do while...............................
+
+num = 0 
+while True:
+    print(num)
+    num = num +1
+    if (num == 101):
+        break
+    
   
    
 
