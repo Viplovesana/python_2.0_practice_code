@@ -70,9 +70,22 @@ while True:
 '''
 for k in range (10,1001):
     print(k)  '''
-
+'''
 for i in range (1,20,5):
-    print(i)
+    print(i)'''
+
+# xample 1: Write a program to display n natural numbers. (In Horizontal-
+
+'''for i in range (0,11):
+    print(i)'''
+
+#Write a program to calculate the sum of numbers. 
+
+sum = 0
+for i in range (1,11):
+    sum=sum+i
+    print ("the sum of",i,"is",sum)
+
 
 
 

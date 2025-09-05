@@ -180,12 +180,12 @@ print ("Area of Square is :",area)'''
 # Write a program to find given year is leep year or not. 
 
 
-year = int(input("Enter the year :"))
+'''year = int(input("Enter the year :"))
 
 if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
     print ("this is a leapp year")
 else:
-    print ("this is not a leap year")
+    print ("this is not a leap year")'''
     
 
 
