@@ -80,11 +80,38 @@ for i in range (1,20,5):
     print(i)'''
 
 #Write a program to calculate the sum of numbers. 
-
+'''
 sum = 0
 for i in range (1,11):
     sum=sum+i
-    print ("the sum of",i,"is",sum)
+    print ("the sum of",i,"is",sum)'''
+
+# Example 3: Write a program to find even no. (2,4,6,8,….) 
+'''
+for i in range (1,11):
+    print("2*",i,"=",i*2)'''
+
+# Example 4: Write a program find odd no.(1,3,5,7,9,……) 
+
+'''for i in range(1,21):
+    print("the all odd no is",i*3)
+
+for i in range(1,21,2):
+    print(i)    
+'''
+# Example 5: Write a program to find factorial of given no. 
+
+'''fact = 1
+n = int(input("Enter the number :")) 
+for i in range(1,n+1):
+    fact=fact*i
+print("the factorial :",fact)
+
+fact = 1
+for i in range(1,21):
+    fact=fact*i
+    print("the factorial of",i,"is :",fact)'''
+
 
 
 
