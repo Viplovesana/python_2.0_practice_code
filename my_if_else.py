@@ -73,6 +73,33 @@ match x:
 
 #............................................................  
          
+'''b = int(input('inter your Age :'))
+
+if b < 18:
+    print("your are aligible for driving licence")
+elif b > 18:
+    print("tour are not eligible for driving")
+elif b <=18:
+    print("your are know eligible for driving licence")
+else:
+    print("your not elgible")  '''  
+
+# ....wap to cheack given no is positive......................
+
+
+n = int(input("Enter the the number :"))
+
+if n > 0:
+    print("number is positive ")
+elif n < 0:
+    print("number is negative")
+elif n == 0 :
+    print("number is Zero")
+else :
+    print("no is invalid")    
+
+ 
+       
 
 
 

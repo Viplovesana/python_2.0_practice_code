@@ -60,15 +60,20 @@ else:
     
 # ............do while...............................
 
-num = 0 
+'''num = 0 
 while True:
     print(num)
     num = num +1
     if (num == 101):
-        break
+        break'''
     
-  
-   
+'''
+for k in range (10,1001):
+    print(k)  '''
+
+for i in range (1,20,5):
+    print(i)
+
 
 
 
