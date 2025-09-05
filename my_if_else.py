@@ -86,7 +86,7 @@ else:
 
 # ....wap to cheack given no is positive......................
 
-
+'''
 n = int(input("Enter the the number :"))
 
 if n > 0:
@@ -96,11 +96,52 @@ elif n < 0:
 elif n == 0 :
     print("number is Zero")
 else :
-    print("no is invalid")    
+    print("no is invalid")  '''  
 
- 
-       
+# ... Write a program to swap two variables without using third variable. ...
 
+'''a = 100    //tuple unpacking way
+b = 200
+a,b = b,a
+print("a is :" ,a  ,"b is :",b)
+
+a = 50
+b = 60
+a=a+b   //110     // add and sub way
+b=a-b   //50
+a=a-b   //60
+print(a) 
+print(b) '''
+
+#....Write a program to swap two variables using third variable. 
+'''
+a = 100
+b = 200
+swap = a
+a = b
+b =swap
+print ("the vale of a :",a)
+print ("the vale of b :",b)'''
+
+# .Write a program to swap two variables using using Addition and Subtraction.
+
+'''a =100
+b =200
+
+a = a+b 
+b = a-b 
+a = a-b 
+print ("the vale of a :",a)
+print ("the vale of b :",b)
+'''
+# ...Write a program to find squre root of given no. 
+
+# we can use two method to find a square root of number is 0.5 and (1/2)
+
+'''n = int(input("Enter the number :"))
+squreroot = n ** (1/2)   
+
+print ("thr square root of n numnber is :", squreroot)'''
 
 
 
