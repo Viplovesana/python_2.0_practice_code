@@ -134,14 +134,63 @@ a = a-b
 print ("the vale of a :",a)
 print ("the vale of b :",b)
 '''
-# ...Write a program to find squre root of given no. 
-
-# we can use two method to find a square root of number is 0.5 and (1/2)
+#Write a program to find squre root of given no/we can use two method to find square root of num is 0.5 and (1/2)
 
 '''n = int(input("Enter the number :"))
+
 squreroot = n ** (1/2)   
 
 print ("thr square root of n numnber is :", squreroot)'''
+
+# Write a program to find largest no among the three inputs numbers. 
+
+'''a = int(input("Enter the first no :"))
+b = int(input("Enter the second no :"))
+c = int(input("Enter the third no :"))
+
+if a >= b and a >= c:
+    print("This is the largest no :",a)
+elif b >= a and b >= c:
+    print("This is the largest no :",b)
+else :
+    print ("the largest no is :",c)'''
+
+
+#  Write a program to find area of  triangle. 
+
+# formula (i/2) base *height
+'''
+height = int(input("Enter the height of triangle :"))
+base = int(input("Enter the base of triangle :"))
+
+area = 0.5*height*base
+
+print("the Area of traiangke is : ",area)'''
+
+# Write a program to find area of square. 
+
+# formula side * side 
+'''
+side  = int(input("Enter the side of square :"))
+
+area = side * side 
+
+print ("Area of Square is :",area)'''
+
+# Write a program to find given year is leep year or not. 
+
+
+year = int(input("Enter the year :"))
+
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print ("this is a leapp year")
+else:
+    print ("this is not a leap year")
+    
+
+
+
+
 
 
 
