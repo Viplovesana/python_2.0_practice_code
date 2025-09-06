@@ -207,12 +207,24 @@ print("consonant is ",consonant_count)  '''
 # Example 8: Write a program to add 5 in each elements in given list.  
 # [10,20,30,40,50] 
 
-l = [10,20,30,40,50] 
+'''l = [10,20,30,40,50] 
 i = 0
 while i < len(l):
     l[i]=l[i]+5
     i=i+1
-print(l)    
+print(l)  ''' 
+
+# Example 9: Write a program to add 5 in each elements in given tuple. (10,20,30,40,50) 
+
+tple = (10,20,30,40,50)
+
+l = list(tple)
+i = 0
+while i < len(l):
+    l[i]=l[i]+5
+    i=i+1
+    tple=tuple(l)
+print(tple)    
 
 
 
