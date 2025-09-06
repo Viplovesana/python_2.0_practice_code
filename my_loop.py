@@ -168,14 +168,43 @@ while i<=num:
     i=i+1'''
 
 # Write a program to find factorial of given no. 
-num = int(input("enter the number :"))
+'''num = int(input("enter the number :"))
 fact = 1
 i = 1
 while i<=num:
     fact=fact*i
     print(fact)
-    i=i+1
-   
+    i=i+1'''
+# Write a program to print your names ten times. 
+      
+'''name =str(input("Enter your name :"))
+n = int(input("Enter the number :"))
+
+i = 1
+while i<=n:
+    print(name)
+    i = i + 1'''
+
+# Write a program to find how many vowels and consonants are present in strings. 
+
+string=str(input("Enter the string :"))
+
+vowels="aeiouAEIOU"
+vowel_count = 0
+consonant_count = 0
+i = 0
+while i < len(string):
+    char=string[i]
+    if char.isalpha():
+        if char in vowels:
+            vowel_count=vowel_count+1
+        else:
+            consonant_count=consonant_count+1
+        i = i + 1    
+print( "vowel is ",vowel_count)
+print("consonant is ",consonant_count)     
+
+
 
 
 
