@@ -113,7 +113,62 @@ for i in range(1,21):
     print("the factorial of",i,"is :",fact)'''
 
 
+# Example 6: Write a program to print your names ten times.       
+
+'''name="viplove"
+for i in range(1,11) :
+    print(i,name)'''
+
+
+# ......................................While loop.....................................................................
+
+# Write a program to display n natural numbers. 
+'''
+n = int(input("Enter the no :"))
+print(f"first {n} natural no are ")
+i = 1
+while i <= n:
+    print (i,end=" ")
+    i = i + 1'''
+
+# Write a program to calculate the sum of numbers. 
+'''
+n = int(input("Enter the no :"))
+sum = 0 
+i =1 
+while i <= n:
+    sum = sum+i
+    print(sum)
+    i=i+1'''
+
+
+# Print numbers until user enters 0
+
+'''n = int(input("Enter the no :"))
+
+while n != 0:
+    print("you enterd ",n)
+    n = int(input("Enter the no :"))'''
+
+# Write a program to find even no. (2,4,6,8,….) 
+
+'''n= int(input("Enter the number where you stp :"))
+
+i = 1 
+while i <= n:
+    print(i*2)
+    i=i+1'''
+
+# Write a program find odd no.(1,3,5,7,9,……) 
+
+num=int(input("Enter the number :"))
+i=1
+while i<=num:
+    print(i*3)
+    i=i+1
+   
 
 
 
 
+    
