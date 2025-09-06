@@ -161,10 +161,19 @@ while i <= n:
 
 # Write a program find odd no.(1,3,5,7,9,……) 
 
-num=int(input("Enter the number :"))
+'''num=int(input("Enter the number :"))
 i=1
 while i<=num:
     print(i*3)
+    i=i+1'''
+
+# Write a program to find factorial of given no. 
+num = int(input("enter the number :"))
+fact = 1
+i = 1
+while i<=num:
+    fact=fact*i
+    print(fact)
     i=i+1
    
 
