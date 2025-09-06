@@ -187,7 +187,7 @@ while i<=n:
 
 # Write a program to find how many vowels and consonants are present in strings. 
 
-string=str(input("Enter the string :"))
+'''string=str(input("Enter the string :"))
 
 vowels="aeiouAEIOU"
 vowel_count = 0
@@ -202,9 +202,17 @@ while i < len(string):
             consonant_count=consonant_count+1
         i = i + 1    
 print( "vowel is ",vowel_count)
-print("consonant is ",consonant_count)     
+print("consonant is ",consonant_count)  '''   
 
+# Example 8: Write a program to add 5 in each elements in given list.  
+# [10,20,30,40,50] 
 
+l = [10,20,30,40,50] 
+i = 0
+while i < len(l):
+    l[i]=l[i]+5
+    i=i+1
+print(l)    
 
 
 
