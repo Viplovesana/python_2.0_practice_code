@@ -216,7 +216,7 @@ print(l)  '''
 
 # Example 9: Write a program to add 5 in each elements in given tuple. (10,20,30,40,50) 
 
-tple = (10,20,30,40,50)
+'''tple = (10,20,30,40,50)
 
 l = list(tple)
 i = 0
@@ -224,7 +224,14 @@ while i < len(l):
     l[i]=l[i]+5
     i=i+1
     tple=tuple(l)
-print(tple)    
+print(tple) '''
+
+# Example 10: Write a program to create a list from given string.  
+
+string = "viplove","riohan","piyush"
+list = list(string)
+print(list)
+
 
 
 
