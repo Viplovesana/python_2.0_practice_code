@@ -273,11 +273,21 @@ while i<=n:
 
 # Python program to calculate the sum of all the odd numbers within the given range. 
 # forloop
-sum = 0
+'''sum = 0
 for i in range(1,20):
     if i % 2 !=0:
         sum=sum+i  
-        print(i,sum)
+        print(i,sum)'''
+
+# while
+n = int(input("Enter the no :"))
+sum=0
+i=1
+while i<= n:
+    if i % 2 != 0:
+        sum = sum + i
+        print("sum of odd no",sum)
+    i=i+1    
 
 
         
