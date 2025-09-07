@@ -291,12 +291,19 @@ while i<= n:
 
 
 # Example 5: Python program to print a multiplication table of a given number 
-
-n = int(input("Enter the no :"))
+# for
+'''n = int(input("Enter the no :"))
 for i in range(1,11):
         print(n,"x",i,"=",n*i)
+'''
 
-           
+# while
+num = int(input("Enter the number :"))
+i = 1
+count = 10
+while i <= count:
+    print(num,"x",i,"=",num*i) 
+    i=i+1          
 
 
         
