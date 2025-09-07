@@ -228,9 +228,39 @@ print(tple) '''
 
 # Example 10: Write a program to create a list from given string.  
 
-string = "viplove","riohan","piyush"
+'''string = "viplove","riohan","piyush"
 list = list(string)
-print(list)
+print(list)'''
+
+
+
+# .............................................forloop......................................................................>>
+
+# Example 1: Print the first 10 natural numbers using for loop. 
+
+'''for i in range(1,11):
+    print(i)'''
+
+# Python program to print all the even numbers within the given range. 
+
+'''for i in range(1,21):
+    print(i*2)'''
+'''
+n = int(input("Enter the no :"))
+i = 1
+while i <= n:
+    print(i * 3)
+    i=i+1'''
+
+# Example 3: Python program to calculate the sum of all numbers from 1 to a given number. 
+
+# for
+sum  = 0
+for i in range(1,11):
+    sum=sum+i
+    print(sum)
+
+
 
 
 
