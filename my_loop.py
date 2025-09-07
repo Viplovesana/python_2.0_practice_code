@@ -323,6 +323,18 @@ while i < len(lst) :
         print(lst[i])
     i = i+1'''
 
+# Example 7: Python program to count the total number of digits in a number. 
+# for 
+num = [1,2,3,4,5,6,8,9,10,23,54,2,65,32,"bsdj",2]
+tdgt = int(len(num))
+print ("total no of digits in num are",tdgt)
+
+for i in num:
+    if type(i) == int:
+        print(i)
+   
+
+
 
 
 
