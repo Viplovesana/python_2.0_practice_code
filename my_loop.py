@@ -298,12 +298,22 @@ for i in range(1,11):
 '''
 
 # while
-num = int(input("Enter the number :"))
+'''num = int(input("Enter the number :"))
 i = 1
 count = 10
 while i <= count:
     print(num,"x",i,"=",num*i) 
-    i=i+1          
+    i=i+1   '''       
+
+# Example 6: Python program to display numbers from a list using a for loop. 
+
+# for
+lst = [1,2,3,"viplove",5,6,"neerajsir",8,9,10]
+print(lst)
+
+for i in lst:
+    if type(i) == int:
+        print(i)
 
 
         
