@@ -308,12 +308,23 @@ while i <= count:
 # Example 6: Python program to display numbers from a list using a for loop. 
 
 # for
-lst = [1,2,3,"viplove",5,6,"neerajsir",8,9,10]
+'''lst = [1,2,3,"viplove",5,6,"neerajsir",8,9,10]
 print(lst)
 
 for i in lst:
     if type(i) == int:
-        print(i)
+        print(i)'''
+
+# while
+'''lst = [1,2,3,"viplove",5,6,"neerajsir",8,9,10]
+i = 0
+while i < len(lst) :
+    if type(lst[i]) == int:
+        print(lst[i])
+    i = i+1'''
+
+
+
 
 
         
