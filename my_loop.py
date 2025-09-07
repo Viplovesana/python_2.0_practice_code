@@ -280,14 +280,23 @@ for i in range(1,20):
         print(i,sum)'''
 
 # while
-n = int(input("Enter the no :"))
+'''n = int(input("Enter the no :"))
 sum=0
 i=1
 while i<= n:
     if i % 2 != 0:
         sum = sum + i
         print("sum of odd no",sum)
-    i=i+1    
+    i=i+1    '''
+
+
+# Example 5: Python program to print a multiplication table of a given number 
+
+n = int(input("Enter the no :"))
+for i in range(1,11):
+        print(n,"x",i,"=",n*i)
+
+           
 
 
         
