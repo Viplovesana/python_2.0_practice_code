@@ -255,20 +255,33 @@ while i <= n:
 # Example 3: Python program to calculate the sum of all numbers from 1 to a given number. 
 
 # for
-sum  = 0
+'''sum  = 0
 for i in range(1,11):
     sum=sum+i
     print(sum)
-
+'''
 
 # while
-n =int(input("Entyer the No :"))
+'''n =int(input("Entyer the No :"))
 sum=0
 i = 1
 while i<=n:
     sum=sum+i
     print ("rhe sum of ",i ,"is",sum)
     i=i+1
+'''
+
+# Python program to calculate the sum of all the odd numbers within the given range. 
+# forloop
+sum = 0
+for i in range(1,20):
+    if i % 2 !=0:
+        sum=sum+i  
+        print(i,sum)
+
+
+        
+    
 
 
 
