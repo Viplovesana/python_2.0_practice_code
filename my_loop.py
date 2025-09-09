@@ -412,11 +412,23 @@ print("total count of odd",odd_count)
 
 # Example 14: Python program to find the factorial of a given number. 
 
-n = int(input("Enter the no :"))
+'''n = int(input("Enter the no :"))
 fact = 1
 for i in range(1,n+1) :
     fact = fact * i
-print (fact ,"is factorial for the given no ")
+print (fact ,"is factorial for the given no ")'''
+
+'''
+
+n = int(input("Enter the no :"))
+fact = 1
+i = 1
+while i < n+1:
+     fact = fact * i
+     i=i+1
+print (fact ,"is factorial for the given no ")     
+    '''
+
 
         
     
