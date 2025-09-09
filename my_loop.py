@@ -378,7 +378,7 @@ else :
 
 # Example 11: Python program to count the number of even and odd numbers from a series of numbers. 
 
-l = [5,8,5,2,9,2,6,7,8,5,]
+'''l = [5,8,5,2,9,2,6,7,8,5,]
 even_count=0
 odd_count=0
 for i in range(len(l)):
@@ -389,8 +389,25 @@ for i in range(len(l)):
         odd_count = odd_count +1
         print(l[i],"is odd") 
 print("total count of even",even_count)
-print("total count of odd",odd_count)           
+print("total count of odd",odd_count)    '''  
 
+# while 
+
+l = [5,8,5,2,9,2,6,7,8,5,]
+even_count=0
+odd_count=0
+i = 0 
+while i < len(l):
+    if l[i] % 2 == 0:
+        even_count=even_count+1
+        print(l[i],"is even")
+        i=i+1
+    else:    
+        odd_count = odd_count +1
+        print(l[i],"is odd") 
+        i=i+1
+print("total count of even",even_count)
+print("total count of odd",odd_count)
 
 
 
