@@ -325,14 +325,44 @@ while i < len(lst) :
 
 # Example 7: Python program to count the total number of digits in a number. 
 # for 
-num = [1,2,3,4,5,6,8,9,10,23,54,2,65,32,"bsdj",2]
+'''num = [1,2,3,4,5,6,8,9,10,23,54,2,65,32,"bsdj",2]
 tdgt = int(len(num))
 print ("total no of digits in num are",tdgt)
 
 for i in num:
     if type(i) == int:
+        print(i)'''
+'''   
+num = [1,2,3,4,5,6,8,9,10,23,54,2,65,32,"bsdj",2]
+
+i=1
+while i <= len(num):
+    if type(i) == int:
         print(i)
-   
+    i=i+1'''
+
+# Example 8: WAp whether  the word is palindrome or not 
+
+'''word = "madam"
+rev = ""                                                             
+for char in word:
+    rev = char + rev
+if word == rev:
+    print(word,"is palindrom")
+else:
+    print (word," is not palindrom")    '''
+
+# while 
+word ="madam"
+rev =""
+i = 0
+while i < len(word):
+    rev = word[i] + rev
+    i = i + 1
+if word == rev:
+    print(word,"is palindrom")
+else:
+    print(word,"is not a palindrom")        
 
 
 
