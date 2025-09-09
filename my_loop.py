@@ -393,7 +393,7 @@ print("total count of odd",odd_count)    '''
 
 # while 
 
-l = [5,8,5,2,9,2,6,7,8,5,]
+'''l = [5,8,5,2,9,2,6,7,8,5,]
 even_count=0
 odd_count=0
 i = 0 
@@ -408,9 +408,15 @@ while i < len(l):
         i=i+1
 print("total count of even",even_count)
 print("total count of odd",odd_count)
+'''
 
+# Example 14: Python program to find the factorial of a given number. 
 
-
+n = int(input("Enter the no :"))
+fact = 1
+for i in range(1,n+1) :
+    fact = fact * i
+print (fact ,"is factorial for the given no ")
 
         
     
