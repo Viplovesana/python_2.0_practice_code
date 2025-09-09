@@ -366,15 +366,30 @@ else:
 
 # Python program that accepts a word from the user and reverses it. 
 
-string = input("enter any name :") 
+'''string = input("enter any name :") 
 rev = ""
 for char in string:
     rev = char +rev
 if rev == string:
     print (string,"is plaindrom")
 else :
-    print(string,"is not a palindrom")          
+    print(string,"is not a palindrom") '''   
 
+
+# Example 11: Python program to count the number of even and odd numbers from a series of numbers. 
+
+l = [5,8,5,2,9,2,6,7,8,5,]
+even_count=0
+odd_count=0
+for i in range(len(l)):
+    if l[i] % 2 == 0:
+        even_count=even_count+1
+        print(l[i],"is even")
+    else:
+        odd_count = odd_count +1
+        print(l[i],"is odd") 
+print("total count of even",even_count)
+print("total count of odd",odd_count)           
 
 
 
