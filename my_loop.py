@@ -353,7 +353,7 @@ else:
     print (word," is not palindrom")    '''
 
 # while 
-word ="madam"
+'''word ="madam"
 rev =""
 i = 0
 while i < len(word):
@@ -362,7 +362,18 @@ while i < len(word):
 if word == rev:
     print(word,"is palindrom")
 else:
-    print(word,"is not a palindrom")        
+    print(word,"is not a palindrom")    ''' 
+
+# Python program that accepts a word from the user and reverses it. 
+
+string = input("enter any name :") 
+rev = ""
+for char in string:
+    rev = char +rev
+if rev == string:
+    print (string,"is plaindrom")
+else :
+    print(string,"is not a palindrom")          
 
 
 
