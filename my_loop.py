@@ -509,24 +509,34 @@ print("total odd count ",odd_count) '''
 # Example 12: Python program to display all numbers within a range except the prime numbers.
 
 # Loop chalega 1 se 29 tak (30 include nahi hota).
-for num in range(1,30): 
-    # Prime check sirf 1 se bade numbers pe karenge.
-    # Agar number 1 ya usse chhota hai to wo direct print hoga (else wala part).
+'''for num in range(1,30): 
+                                           # Prime check sirf 1 se bade numbers pe karenge.
+                                           # Agar number 1 ya usse chhota hai to wo direct print hoga (else wala part).
     if num > 1:
-        # Yeh har number ke liye 2 se lekar (num-1) tak divisor check karega.
-        # Matlab: kya koi number hai jo num ko divide kar de?
+                                           # Yeh har number ke liye 2 se lekar (num-1) tak divisor check karega.
+                                           # Matlab: kya koi number hai jo num ko divide kar de?
         for i in range(2,num):
-            # Agar num kisi i se divide ho jaye → iska matlab prime nahi hai (non-prime).
-           # Usko print kar dena hai.
+                                            # Agar num kisi i se divide ho jaye → iska matlab prime nahi hai (non-prime).
+                                           # Usko print kar dena hai.
             if num % i == 0:
                 print(num)
                 break
-            # Ek baar hume prove ho gaya ki number non-prime hai, fir aur check karne ki zarurat nahi.
-            # Isliye loop se bahar aa jaate hain.
+                                           # Ek baar hume prove ho gaya ki number non-prime hai, fir aur check karne ki zarurat nahi.
+                                           # Isliye loop se bahar aa jaate hain.
     else :
-        print(num)        
+        print(num)    '''    
         
-       
+
+
+# Example 14: Python program to find the factorial of a given number. 
+
+num = int(input("Enter the no :"))
+
+fact = 1
+
+for i in range(1,num+1):
+    fact = fact * i
+print("this is the factoriaal of",fact)
 
 
 
