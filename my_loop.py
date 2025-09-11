@@ -540,7 +540,7 @@ print("this is the factoriaal of",fact)
 '''
 
 # Example 15: Python program that accepts a string and calculates the number of digits and letters. 
-
+'''
 string = [1,3,4,5,6,"v",34,"p","y",4]
 digits=0
 letters=0
@@ -552,7 +552,34 @@ for i in string:
         letters=letters+1
           
 print ("total no of",digits)
-print("total no of strings",letters) 
+print("total no of strings",letters) '''
+
+
+# Example 18: Python program to convert the month name to a number of days. 
+
+months = {
+    "january":31,
+    "fabruary":"28 or 29",
+    "march":31,
+    "april":30,
+    "may":31,
+    "june": 30,
+    "july": 31,
+    "august": 31,
+    "september": 30,
+    "october": 31,
+    "november": 30,
+    "december": 31
+}
+month = input("Enter the name of month :").lower()
+
+for key in months:
+    if key == month:
+        print("no of days in ",month,"is",months[key])
+        break
+else:
+    print("invalid month")    
+
 
 
 
