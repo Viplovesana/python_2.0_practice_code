@@ -429,6 +429,39 @@ while i < n+1:
 print (fact ,"is factorial for the given no ")     
     '''
 
+# WAp to reverse a given string
+
+'''string = input("Enter the name :")
+rev = "" 
+
+for i in string:
+    rev = i + rev
+if rev == string:
+    print(string, "is palindrom")
+else:
+    print(string,"is not palindrom")'''
+
+
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
+
+n = int(input("Enter the no :"))
+num = n
+total = 0 
+power = len(str(num))
+while num > 0 :
+    last_digit = num % 10
+    total = total + (last_digit ** power)
+    num = num // 10
+if total == n :
+    print (n, "ia a armstrong no")
+else:
+    print (n, "ia not a armstrong no")
+
+
+
+
+
+
 
         
     
