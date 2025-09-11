@@ -530,14 +530,29 @@ print("total odd count ",odd_count) '''
 
 # Example 14: Python program to find the factorial of a given number. 
 
-num = int(input("Enter the no :"))
+'''num = int(input("Enter the no :"))
 
 fact = 1
 
 for i in range(1,num+1):
     fact = fact * i
 print("this is the factoriaal of",fact)
+'''
 
+# Example 15: Python program that accepts a string and calculates the number of digits and letters. 
+
+string = [1,3,4,5,6,"v",34,"p","y",4]
+digits=0
+letters=0
+for i in string:
+    if type(i) == int:
+        digits =digits +1
+       
+    elif type(i) == str:
+        letters=letters+1
+          
+print ("total no of",digits)
+print("total no of strings",letters) 
 
 
 
