@@ -482,11 +482,34 @@ else :
     print(n, "is not s palindrome")        
 """
 
+# Most important
+# Python program that accepts a word from the user and reverses it. 
 
 
-
+'''string = input("Enter the word :")
+rev = ""
+for i in string:
+    rev = i + rev
+print (rev)'''
         
-    
+# Example 11: Python program to count the number of even and odd numbers from a series of numbers.
+
+n = int(input("Enter the no :"))
+even_count=0
+odd_count=0
+for i in range(1,n):
+    if i % 2 == 0:
+        even_count=even_count+1
+         
+    else:
+       odd_count=odd_count+1
+print("total even count ",even_count)
+print("total odd count ",odd_count)  
+       
+
+
+
+
 
 
 
