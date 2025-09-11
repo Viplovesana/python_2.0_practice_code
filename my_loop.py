@@ -582,12 +582,23 @@ else:
 
 # Example 17: Python program to check the validity of password input by users. 
 
-pswd = input("Enter the password :")
+'''pswd = input("Enter the password :")
 password = "mrcool123"
 if pswd==password:
     print("password matched sucessfully")
 else:
     print("password not matched ")        
+'''
+password = "mrcool123"
+pswd = input("Enter the password :")
+
+for i in range(len(password)):
+    if pswd[i] == password[i]:
+        print("password matched sucessfully")
+        break
+    else:
+        print("password not matched ") 
+        break        
 
 
 
