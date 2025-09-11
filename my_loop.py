@@ -429,6 +429,8 @@ while i < n+1:
 print (fact ,"is factorial for the given no ")     
     '''
 
+
+# MOST important.................
 # WAp to reverse a given string
 
 '''string = input("Enter the name :")
@@ -442,9 +444,12 @@ else:
     print(string,"is not palindrom")'''
 
 
+
+
+# MOST important.................
 # Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
 
-n = int(input("Enter the no :"))
+'''n = int(input("Enter the no :"))
 num = n
 total = 0 
 power = len(str(num))
@@ -455,10 +460,27 @@ while num > 0 :
 if total == n :
     print (n, "ia a armstrong no")
 else:
-    print (n, "ia not a armstrong no")
+    print (n, "ia not a armstrong no")'''
 
 
+    
+# MOST important.................
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
 
+"""n = int(input("Enter the no :"))
+num = n
+total = 0 
+power = len(str(num))
+
+while num > 0 :
+    last_didgt= num % 10
+    total = total + (last_didgt ** power)
+    num = num // 10
+if total == n : 
+    print(n, "is a palindrome")
+else :
+    print(n, "is not s palindrome")        
+"""
 
 
 
