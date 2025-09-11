@@ -557,7 +557,7 @@ print("total no of strings",letters) '''
 
 # Example 18: Python program to convert the month name to a number of days. 
 
-months = {
+'''months = {
     "january":31,
     "fabruary":"28 or 29",
     "march":31,
@@ -578,7 +578,18 @@ for key in months:
         print("no of days in ",month,"is",months[key])
         break
 else:
-    print("invalid month")    
+    print("invalid month")    '''
+
+# Example 17: Python program to check the validity of password input by users. 
+
+pswd = input("Enter the password :")
+password = "mrcool123"
+if pswd==password:
+    print("password matched sucessfully")
+else:
+    print("password not matched ")        
+
+
 
 
 
