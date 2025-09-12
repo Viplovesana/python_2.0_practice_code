@@ -13,6 +13,11 @@ for i in range(1,n + 1):
 for i in range(1,n + 1):
     print(" "*(n-i)+"*"*i)'''
 
+'''n = int(input("Enter the no :"))
+for i in range(1,n + 1):
+    print("*"*i)'''
+
 n = int(input("Enter the no :"))
 for i in range(1,n + 1):
-    print("*"*i)
+    print(" "*(n-i)+"A"*(2*i-1))
+   
