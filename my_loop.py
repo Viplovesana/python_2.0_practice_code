@@ -589,7 +589,9 @@ if pswd==password:
 else:
     print("password not matched ")        
 '''
-password = "mrcool123"
+
+# Forloop
+'''password = "mrcool123"
 pswd = input("Enter the password :")
 
 for i in range(len(password)):
@@ -598,7 +600,81 @@ for i in range(len(password)):
         break
     else:
         print("password not matched ") 
-        break        
+        break        '''
+
+# Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..) 
+
+# .........................................................................
+'''num = int(input("Enther the num :")).
+a = 0                                  .
+b = 1                                  .
+c = 0                                  .
+i =1             ''FIBONACCI..         .
+while i<num:                           .
+    c = a + b                          .         
+    a = b                              .         
+    b = c                              .         
+    i=i+1                              .       
+    print(c)''''.......................'                      
+# ..........................................................................
+'''num = int(input("Enther the num to find the fibonacci series :"))
+
+first_no = 0
+second_no = 1
+third_no = 0
+i = 1 
+while i <= num:
+    third_no = first_no + second_no  
+    first_no = second_no
+    second_no = third_no
+    i = i + 1
+print("the given no",num,"for the fibonacci series is",third_no)'''
+
+'''num = int(input("Enter the no for fibonacci series :"))
+first = 0
+second = 1
+third = 0
+i = 1
+while i <= num:
+    third = first + second
+    first = second
+    second = third
+    i = i + 1
+print(third ,"is fibonacci for the given no")'''
+
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) 
+
+'''n = int(input("Enter the no :"))
+num = n 
+total = 0
+power = len(str(n))
+
+while num > 0 :
+    last_digit = num % 10
+    total = total + (last_digit**power)
+    num = num // 10
+if n == total :
+    print(n, "is the armstrong no")
+else : 
+    print(n , " is not an armstronge no")  '''  
+# forloop
+'''n = int(input("Enter the no :"))
+num = n 
+total = 0
+power = len(str(n))
+
+for i in range(power):
+    last_digit = num % 10
+    total = total + (last_digit**power)
+    num = num // 10
+if total == n :
+    print(n,"is the armstrong no")
+else : 
+    print(n ,"is not an armstronge no")  
+ '''
+
+
+
 
 
 
