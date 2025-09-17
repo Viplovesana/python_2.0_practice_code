@@ -1,10 +1,12 @@
 
 def func_name(a,b):
-    sum = a + b
-    print(sum)
-    return sum   
-func_name(2,4)
-func_name(12,4)
-func_name(18,9)
-func_name(37,2)
+  sum = a+b
+  print(sum)  
+  return a + b
+
+result = func_name(37,9)
+print("the result is",result)
+
+print("after return")
+func_name(34,94)
 
