@@ -128,7 +128,7 @@ def digit_count(list):
 digit_count(num)   '''    
 
 # Example 8:  .(madam=madam) WAF cheack weathe3r the string is palindrome or not 
-name = input("Enter the name :")
+'''name = input("Enter the name :")
 
 def palindrome(string):
     rev = ""
@@ -138,5 +138,18 @@ def palindrome(string):
      print("the given string is plindrom")
     else:
       print("not an palindrom")    
-palindrome(name)       
+palindrome(name)  '''    
+
+
+# Python program that accepts a word from the user and reverses using function.
+
+
+name = input("Enter the name  :")
+
+def reverse(string):
+    rev = ""
+    for i in string:
+        rev = i + rev
+    print(rev,"is the reverse of given string")  
+reverse(name)       
     
