@@ -26,9 +26,21 @@ list_para(cities)'''
 
 # Wap to print the list in single line  ................
 
-fruits = ["grapes","orange","apple","mango"]
+'''fruits = ["grapes","orange","apple","mango"]
 
 def list_fruits(list):
     for i in list:
       print(i,end=", ")
-list_fruits(fruits)    
+list_fruits(fruits)   ''' 
+
+# Waf to find a factorial using functions.............
+
+num = int ( input("Enter the number :"))
+
+def find_fac(n):
+    factorial = 1
+    for i in range(1,n+1):
+        factorial = factorial*i
+    return factorial
+result=find_fac(num)
+print(result,"this is the fact of",num)    
