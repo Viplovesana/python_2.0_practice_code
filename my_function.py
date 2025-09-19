@@ -14,7 +14,7 @@ func_name(34,94)
 
 # Wap to print the lenght of a list ................
 
-heros = [ "ironman","shaktiman","spiderman"]
+'''heros = [ "ironman","shaktiman","spiderman"]
 
 cities = ["dewas","bhopal"]
 
@@ -22,6 +22,13 @@ def list_para(list):
   print(len(list))
   return list
 list_para(heros)
-list_para(cities)
+list_para(cities)'''
 
 # Wap to print the list in single line  ................
+
+fruits = ["grapes","orange","apple","mango"]
+
+def list_fruits(list):
+    for i in list:
+      print(i,end=", ")
+list_fruits(fruits)    
