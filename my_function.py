@@ -68,7 +68,7 @@ natural_no(0,10)'''
 even_no(0,11) '''   
 
 # Example 3: Python program to calculate the sum of all numbers from 1 to a given number using function.
-num = int(input("Enter the number :"))
+'''num = int(input("Enter the number :"))
 print("The sum upto the given no ")
 def sum_no(a):
     sum = 0
@@ -78,5 +78,19 @@ def sum_no(a):
         print(sum)
     print(sum,"is the only sum of given number")    
 sum_no(num)
+'''
+
+# Example 4: Python program to calculate the sum of all the odd numbers within the given range using fuction.
+
+def odd_sum(a,b):
+    sum = 0
+    for i in range(a,b+1):
+        if i % 2 !=0: 
+          sum = sum + i
+          print(sum)
+odd_sum(1,20)          
+         
+
+
 
          
