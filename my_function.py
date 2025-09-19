@@ -35,12 +35,19 @@ list_fruits(fruits)   '''
 
 # Waf to find a factorial using functions.............
 
-num = int ( input("Enter the number :"))
+'''num = int ( input("Enter the number :"))
 
 def find_fac(n):
     factorial = 1
     for i in range(1,n+1):
-        factorial = factorial*i
+        factorial = factorial*i   
     return factorial
 result=find_fac(num)
-print(result,"this is the fact of",num)    
+print(result,"this is the fact of",num)  '''
+
+# WAF to convert usd into indian rupees or inr 
+currency = int(input("Enter the USD "))
+def converter(usd):
+    inr = usd * 83
+    print(currency,"USD is equals too",inr,"in inr")
+converter(currency)    
