@@ -56,10 +56,16 @@ converter(currency)    '''
 
 '''for i in range(0,11):
     print(i)''' 
-def natural_no(a,b): 
+'''def natural_no(a,b): 
     for i in range(a,b+1):
         print(i)
-natural_no(0,10)        
+natural_no(0,10)'''   
+
+# Example 2: Python program to print all the even numbers within the given range using functions.
+def even_no(a,b):
+  for i in range(a,b):
+   print(i*2) 
+even_no(0,11)    
     
 
          
