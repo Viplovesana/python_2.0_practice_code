@@ -79,17 +79,23 @@ def sum_no(a):
     print(sum,"is the only sum of given number")    
 sum_no(num)
 '''
-
 # Example 4: Python program to calculate the sum of all the odd numbers within the given range using fuction.
 
-def odd_sum(a,b):
+'''def odd_sum(a,b):
     sum = 0
     for i in range(a,b+1):
         if i % 2 !=0: 
           sum = sum + i
           print(sum)
 odd_sum(1,20)          
-         
+         '''
+# Example 5: Python program to print a multiplication table of a given number using function..
+num = int(input("Enter the number :"))
+def table(n):
+    for i in range(1,11):
+        tab = n*i
+        print(num,"x",i,"=",tab)
+table(num)        
 
 
 
