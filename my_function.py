@@ -90,13 +90,27 @@ sum_no(num)
 odd_sum(1,20)          
          '''
 # Example 5: Python program to print a multiplication table of a given number using function..
-num = int(input("Enter the number :"))
+'''num = int(input("Enter the number :"))
 def table(n):
     for i in range(1,11):
         tab = n*i
         print(num,"x",i,"=",tab)
-table(num)        
+table(num)  '''      
 
+# Example 6: Python program to display numbers from a list using a for loop unsing function.
 
+num = [ 1,2,3,4,5,6,"viplove","ananya",7,8]
+def num_list(list):
+    for i in list:
+        if type(i) == int:
+            print(i)   
+num_list(num)
+
+num = [ 1,2,3,4,5,6,"viplove","ananya",7,8]
+def num_list(list):
+    for i in list:
+        if type(i) == str:
+            print(i)   
+num_list(num)
 
          
