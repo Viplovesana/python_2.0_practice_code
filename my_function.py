@@ -62,10 +62,21 @@ converter(currency)    '''
 natural_no(0,10)'''   
 
 # Example 2: Python program to print all the even numbers within the given range using functions.
-def even_no(a,b):
+'''def even_no(a,b):
   for i in range(a,b):
    print(i*2) 
-even_no(0,11)    
-    
+even_no(0,11) '''   
+
+# Example 3: Python program to calculate the sum of all numbers from 1 to a given number using function.
+num = int(input("Enter the number :"))
+print("The sum upto the given no ")
+def sum_no(a):
+    sum = 0
+    for i in range(1,a+1):
+        sum = sum + i
+        
+        print(sum)
+    print(sum,"is the only sum of given number")    
+sum_no(num)
 
          
