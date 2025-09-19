@@ -116,7 +116,7 @@ num_list(num)
 
 # Example 7: Python program to count the total number of digits in a number using function. 
          
-num = [1,20,3,4,54,66,7,"viplove sana","anu",8,9]
+'''num = [1,20,3,4,54,66,7,"viplove sana","anu",8,9]
 
 def digit_count(list):
     count =0
@@ -125,4 +125,18 @@ def digit_count(list):
             count = count + 1
             print(i)
     print("total count is",count,"is in the given list")
-digit_count(num)            
+digit_count(num)   '''    
+
+# Example 8:  .(madam=madam) WAF cheack weathe3r the string is palindrome or not 
+name = input("Enter the name :")
+
+def palindrome(string):
+    rev = ""
+    for char in string:
+        rev = char + rev
+    if rev == string:
+     print("the given string is plindrom")
+    else:
+      print("not an palindrom")    
+palindrome(name)       
+    
