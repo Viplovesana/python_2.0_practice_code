@@ -98,19 +98,31 @@ def table(n):
 table(num)  '''      
 
 # Example 6: Python program to display numbers from a list using a for loop unsing function.
-
-num = [ 1,2,3,4,5,6,"viplove","ananya",7,8]
+# for numbers
+'''num = [ 1,2,3,4,5,6,"viplove","ananya",7,8]
 def num_list(list):
     for i in list:
         if type(i) == int:
             print(i)   
 num_list(num)
-
+# for strings
 num = [ 1,2,3,4,5,6,"viplove","ananya",7,8]
 def num_list(list):
     for i in list:
         if type(i) == str:
             print(i)   
 num_list(num)
+'''
 
+# Example 7: Python program to count the total number of digits in a number using function. 
          
+num = [1,20,3,4,54,66,7,"viplove sana","anu",8,9]
+
+def digit_count(list):
+    count =0
+    for i in list:
+        if type(i) == int:
+            count = count + 1
+            print(i)
+    print("total count is",count,"is in the given list")
+digit_count(num)            
