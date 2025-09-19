@@ -46,8 +46,20 @@ result=find_fac(num)
 print(result,"this is the fact of",num)  '''
 
 # WAF to convert usd into indian rupees or inr 
-currency = int(input("Enter the USD "))
+'''currency = int(input("Enter the USD "))
 def converter(usd):
     inr = usd * 83
     print(currency,"USD is equals too",inr,"in inr")
-converter(currency)    
+converter(currency)    '''
+
+# Example 1: Print the first 10 natural numbers using for funtion.
+
+'''for i in range(0,11):
+    print(i)''' 
+def natural_no(a,b): 
+    for i in range(a,b+1):
+        print(i)
+natural_no(0,10)        
+    
+
+         
