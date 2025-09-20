@@ -208,17 +208,18 @@ odd_even(n)'''
 
 number = int(input("Enter the number :"))
 
-def all_num(n):
+def all_num(n): 
     for num in range(1,n+1):
         if num == 1:
             print(num)
             continue
         for i in range(2,num):
               if num % i == 0:
-                  print(num)
+                  print(num)       
                   break       
-all_num(number)    
+all_num(number)  
     
     
     
 
+  
