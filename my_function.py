@@ -205,7 +205,7 @@ def odd_even(num):
 odd_even(n)'''
 
 # Example 12: Python program to display all numbers within a range except the prime numbers using functions...
-
+'''
 number = int(input("Enter the number :"))
 
 def all_num(n): 
@@ -217,9 +217,20 @@ def all_num(n):
               if num % i == 0:
                   print(num)       
                   break       
-all_num(number)  
+all_num(number)  '''
     
     
+# Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..)     
+n =int(input("Enter the number :"))
+def fibo_nacci(num):
+    first_no = 0 
+    second_no = 1
+    third_no = 0
+    for i in range(1,num+1):
+        third_no = first_no+second_no
+        first_no = second_no
+        second_no = third_no
+        print(third_no,"for given no",i)         
     
-
+fibo_nacci(n)
   
