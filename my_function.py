@@ -144,12 +144,33 @@ palindrome(name)  '''
 # Python program that accepts a word from the user and reverses using function.
 
 
-name = input("Enter the name  :")
+'''name = input("Enter the name  :")
 
 def reverse(string):
     rev = ""
     for i in string:
         rev = i + rev
     print(rev,"is the reverse of given string")  
-reverse(name)       
+reverse(name)    '''   
     
+# Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) using function.......
+
+
+def arm_strong(num):
+    number = num
+    total = 0 
+    power = len(str(number))
+    while number > 0:
+        last_digit = number % 10
+        total = total +(last_digit ** power)
+        number = number // 10
+    if total == num:
+        print("the no is armstronge")
+    else:
+        print("not an armstronge")
+n = int(input("Enter the number :"))                    
+arm_strong(n)    
+    
+    
+    
+
