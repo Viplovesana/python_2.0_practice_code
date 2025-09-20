@@ -154,7 +154,7 @@ def reverse(string):
 reverse(name)    '''   
     
 # Example 10: Python program to check if a given number is an Armstrong number. (153=1**3+5**3+3**3) using function.......
-
+'''
 
 def arm_strong(num):
     number = num
@@ -169,7 +169,23 @@ def arm_strong(num):
     else:
         print("not an armstronge")
 n = int(input("Enter the number :"))                    
-arm_strong(n)    
+arm_strong(n)  ''' 
+# the whole process of arm stronge .....................
+'''
+Iteration 1:
+last_digit = 153 % 10 = 3
+total = 0 + 3**3 = 27
+temp = 153 // 10 = 15
+
+Iteration 2:
+last_digit = 15 % 10 = 5
+total = 27 + 5**3 = 27 + 125 = 152
+temp = 15 // 10 = 1
+
+Iteration 3:
+last_digit = 1 % 10 = 1
+total = 152 + 1**3 = 153
+temp = 1 // 10 = 0'''
     
     
     
