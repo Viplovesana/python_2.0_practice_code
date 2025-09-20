@@ -247,7 +247,7 @@ fact_orial(num)  '''
 
 # Example 15: Python program that accepts a string and calculates the number of digits and letters.
 
-string = [1,2,3,4,5,6,7,"v",8,"i",9,"p",10]
+'''string = [1,2,3,4,5,6,7,"v",8,"i",9,"p",10]
 
 def letr_dig(value):
     count_digits = 0
@@ -260,5 +260,19 @@ def letr_dig(value):
     print("thee total no of digits is",count_digits )            
     print("thee total no of letter is",count_letter )            
             
-letr_dig(string)    
+letr_dig(string) '''   
+
+# Example 17: Python program to check the validity of password input by users. 
+enter = input("Enter the password :-")
+password = "Mr.cool123"
+def pass_word(pswd):
+    for i in pswd:
+        if pswd == password:
+            print("password matched succesfully")
+            break        
+        else:
+            print("password not matched")  
+            break  
+pass_word(enter)    
+
   
