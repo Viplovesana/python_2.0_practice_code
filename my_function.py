@@ -263,7 +263,7 @@ def letr_dig(value):
 letr_dig(string) '''   
 
 # Example 17: Python program to check the validity of password input by users. 
-enter = input("Enter the password :-")
+'''enter = input("Enter the password :-")
 password = "Mr.cool123"
 def pass_word(pswd):
     for i in pswd:
@@ -273,6 +273,35 @@ def pass_word(pswd):
         else:
             print("password not matched")  
             break  
-pass_word(enter)    
+pass_word(enter)'''   
+
+
+# Example 18: Python program to convert the month name to a number of days using function.
+enter = input("Enter the month to find the days :-").lower()
+def month_day(month):
+    months = {
+"january":31,
+    "fabruary":"28 or 29",
+    "march":31,
+    "april":30,
+    "may":31,
+    "june": 30,
+    "july": 31,
+    "august": 31,
+    "september": 30,
+    "october": 31,
+    "november": 30,
+    "december": 31
+} 
+    for key in months:
+        if key == month:
+            print("the total no of days are in",month,"is",months[key])
+            break
+    else:
+      print("invalid moonth")
+         
+month_day(enter)
+
+
 
   
