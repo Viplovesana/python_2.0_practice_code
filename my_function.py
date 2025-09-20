@@ -221,7 +221,7 @@ all_num(number)  '''
     
     
 # Example 13: Python program to get the Fibonacci series. (0,1,1,2,3,5,8,13,21……………..)     
-n =int(input("Enter the number :"))
+'''n =int(input("Enter the number :"))
 def fibo_nacci(num):
     first_no = 0 
     second_no = 1
@@ -232,5 +232,16 @@ def fibo_nacci(num):
         second_no = third_no
         print(third_no,"for given no",i)         
     
-fibo_nacci(n)
+fibo_nacci(n)'''
+
+# Example 14: Python program to find the factorial of a given number using function .
+
+num = int(input("Enter the number :"))
+def fact_orial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * i
+    print(fact,"is for the given no")
+        
+fact_orial(num)     
   
