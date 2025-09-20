@@ -189,7 +189,8 @@ temp = 1 // 10 = 0'''
 
 
 # Example 11: Python program to count the number of even and odd numbers from a series of numbers using functions.
-n = [1,2,3,4,5,6,7,8,9,22,34,65,76,87,23,83,686]
+
+'''n = [1,2,3,4,5,6,7,8,9,22,34,65,76,87,23,83,686]
 def odd_even(num):
     odd_count = 0
     even_count = 0
@@ -201,7 +202,23 @@ def odd_even(num):
     print(even_count,"is the total count of even no")
     print(odd_count,"is the total count of odd no") 
    
-odd_even(n)
+odd_even(n)'''
+
+# Example 12: Python program to display all numbers within a range except the prime numbers using functions...
+
+number = int(input("Enter the number :"))
+
+def all_num(n):
+    for num in range(1,n+1):
+        if num>1:
+            for i in range(2,num):
+                if num % i == 0:
+                    print(num)
+                    break
+        else:
+          print(num)    
+        
+all_num(number)    
     
     
     
