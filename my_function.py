@@ -236,12 +236,29 @@ fibo_nacci(n)'''
 
 # Example 14: Python program to find the factorial of a given number using function .
 
-num = int(input("Enter the number :"))
+'''num = int(input("Enter the number :"))
 def fact_orial(n):
     fact = 1
     for i in range(1,n+1):
         fact = fact * i
     print(fact,"is for the given no")
         
-fact_orial(num)     
+fact_orial(num)  '''   
+
+# Example 15: Python program that accepts a string and calculates the number of digits and letters.
+
+string = [1,2,3,4,5,6,7,"v",8,"i",9,"p",10]
+
+def letr_dig(value):
+    count_digits = 0
+    count_letter = 0
+    for i in value:
+        if type(i) == int:
+            count_digits += 1
+        elif type(i) == str:
+            count_letter += 1
+    print("thee total no of digits is",count_digits )            
+    print("thee total no of letter is",count_letter )            
+            
+letr_dig(string)    
   
