@@ -15,5 +15,8 @@ print(double(6))'''
 '''triples = lambda x : x * 3
 print(triples(5))'''
 
-triples = lambda x : x * x * x
-print(triples(5))
+'''triples = lambda x : x * x * x
+print(triples(5))'''
+
+average  = lambda x ,y,z :(x+y+z)/3 
+print(average(20,30,50))
