@@ -320,6 +320,7 @@ for c in components:
 '''
 
 
+# *********************** VERY IMPORTANT ****************************************
 
 # Relation between *args(argument) and **kwargs(keyword argument).................
 
@@ -332,12 +333,12 @@ for c in components:
 print(fun_ction(2,3,5)) 
 print(fun_ction(20,40)) 
 '''
+
 # **kwargs(keyword argument)
 
-
-def func_tion(**kwargs):
+'''def func_tion(**kwargs):
     print(kwargs)
     for key,value in kwargs.items():
         print(key,":",value)
 
-func_tion(name="viplove",age = 24,city = "bhopal")    
+func_tion(name="viplove",age = 24,city = "bhopal")    '''
