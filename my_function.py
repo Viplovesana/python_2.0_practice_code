@@ -277,7 +277,9 @@ pass_word(enter)'''
 
 
 # Example 18: Python program to convert the month name to a number of days using function.
-enter = input("Enter the month to find the days :-").lower()
+
+
+'''enter = input("Enter the month to find the days :-").lower()
 def month_day(month):
     months = {
 "january":31,
@@ -300,8 +302,21 @@ def month_day(month):
     else:
       print("invalid moonth")
          
-month_day(enter)
+month_day(enter)'''
 
+
+
+# PLM code 
+components = [
+    {'part':'Engine','hours':2300,'limit':2400},
+    {'part':'Magneto','hours':450,'limit':500}
+]
+
+for c in components:
+    if c['hours'] >= 0.9 * c['limit']:
+        print(f"{c['part']} needs inspection soon!")
+    else:
+        print(f"{c['part']} is OK")
 
 
   
