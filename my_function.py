@@ -325,9 +325,19 @@ for c in components:
 
 # *args(argument)...
 
-def fun_ction(*args):
+'''def fun_ction(*args):
     print(args)
     return sum(args)
 
 print(fun_ction(2,3,5)) 
-print(fun_ction(20,40))   
+print(fun_ction(20,40)) 
+'''
+# **kwargs(keyword argument)
+
+
+def func_tion(**kwargs):
+    print(kwargs)
+    for key,value in kwargs.items():
+        print(key,":",value)
+
+func_tion(name="viplove",age = 24,city = "bhopal")    
