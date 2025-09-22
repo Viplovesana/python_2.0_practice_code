@@ -307,7 +307,7 @@ month_day(enter)'''
 
 
 # PLM code 
-components = [
+'''components = [
     {'part':'Engine','hours':2300,'limit':2400},
     {'part':'Magneto','hours':450,'limit':500}
 ]
@@ -317,6 +317,17 @@ for c in components:
         print(f"{c['part']} needs inspection soon!")
     else:
         print(f"{c['part']} is OK")
+'''
 
 
-  
+
+# Relation between *args(argument) and **kwargs(keyword argument).................
+
+# *args(argument)...
+
+def fun_ction(*args):
+    print(args)
+    return sum(args)
+
+print(fun_ction(2,3,5)) 
+print(fun_ction(20,40))   
