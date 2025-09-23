@@ -85,6 +85,11 @@ def square (x):
 newl = list(map(square,numbers))
 print(newl)
 
+# using lamda function.........
+
+newl = list(map(lambda x: x * x ,numbers))
+print(newl)
+
 
 
 
