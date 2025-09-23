@@ -35,8 +35,15 @@ def cube(x):
 result = cube(2)
 print(result)    
 
-l = [1,2,3,4,56,6]
+
+# ...Without map function.......................................
+'''l = [1,2,3,4,56,6]
 newl = []
 for item in l:
     newl.append(cube(item))
-print(newl)    
+print(newl)  '''  
+
+# ......with map function........................................
+l = [1,2,3,4,56,6]
+newl=list(map(cube,l))
+print(newl)  
