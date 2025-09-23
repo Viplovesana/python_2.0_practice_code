@@ -214,7 +214,7 @@ def function():
 result = double(function)
 print(result())'''
 
-def double(function):
+'''def double(function):
     def inner():
         function()
         return 5*2
@@ -223,7 +223,20 @@ def double(function):
 def function():
     return 5
 
-print(function())
+print(function())'''
+
+#........................  GENERATOR  ..........................
+
+
+def genrator():
+    for i in range(1,100):
+        yield i
+gen =  genrator()
+ 
+for _ in range(49):
+    next(gen) 
+print (next(gen))
+print (next(gen))
 
 
 
