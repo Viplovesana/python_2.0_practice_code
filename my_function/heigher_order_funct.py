@@ -139,7 +139,7 @@ print(newl)'''
 
 # Find the largest number: You have this list: numbers = [50, 20, 100, 35, 75]. Use reduce() to find the largest number in the list. (Expected output: 100).
 
-from functools import reduce
+'''from functools import reduce
 numbers = [50, 20, 100, 35, 75]
 
 def largest_no(x,y):
@@ -148,4 +148,20 @@ def largest_no(x,y):
     else:
         return y
 newl = reduce(largest_no,numbers)
-print(newl)
+print(newl)'''
+
+
+
+
+# ...DECORATOR...........................................................
+
+def decor(printer):
+    def inner():
+        printer()
+        print("Yes every thing is perfect")
+    return inner
+@decor    
+def printer():
+    print("hello viplove ")
+    print("is everything good")
+printer()    
