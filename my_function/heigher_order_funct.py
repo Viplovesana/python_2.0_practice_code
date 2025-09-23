@@ -155,7 +155,7 @@ print(newl)'''
 
 # ...DECORATOR...........................................................
 
-def decor(printer):
+'''def decor(printer):
     def inner():
         printer()
         print("Yes every thing is perfect")
@@ -164,4 +164,21 @@ def decor(printer):
 def printer():
     print("hello viplove ")
     print("is everything good")
-printer()    
+printer()  '''  
+
+
+# WAP to add sum of numbers using decoretor..........................
+def decor(addition):
+    def inner():
+        sum = addition()
+        num3 = float(input("Enter the third number :-"))
+        sum = sum + num3
+        return sum
+    return inner
+@decor
+def addition():
+    num1 = float(input("Enter the first number :-"))
+    num2 = float(input("Enter the second number :-"))
+    sum = num1 + num2
+    return sum
+print(addition())
