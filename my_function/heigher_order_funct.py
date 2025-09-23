@@ -77,7 +77,7 @@ print(sum)'''
 
 
 # Square the numbers: You have this list: numbers = [2, 3, 4, 5]. Use map() to create a new list where each number is squared. (Expected output: [4, 9, 16, 25]).
-
+'''
 numbers = [2, 3, 4, 5]
 
 def square (x):
@@ -86,11 +86,18 @@ newl = list(map(square,numbers))
 print(newl)
 
 # using lamda function.........
-
 newl = list(map(lambda x: x * x ,numbers))
+print(newl)'''
+
+# Convert to uppercase: You have this list: words = ['hello', 'world', 'python']. Use map() to create a new list where all strings are in uppercase. (Expected output: ['HELLO', 'WORLD', 'PYTHON']).
+
+words = ['hello', 'world', 'python']
+def capatalize(x):
+    return x.capitalize()
+newl = list(map(capatalize,words))
+print(newl)
+# using lamda function.........
+newl = list(map(lambda x:x.capitalize(),words))
 print(newl)
 
 
-
-
-# Convert to uppercase: You have this list: words = ['hello', 'world', 'python']. Use map() to create a new list where all strings are in uppercase. (Expected output: ['HELLO', 'WORLD', 'PYTHON']).
