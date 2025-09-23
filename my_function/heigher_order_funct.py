@@ -30,11 +30,11 @@ print (result)'''
 # ............MAP................................................................
 
 
-def cube(x):
+'''def cube(x):
     return x*x*x
 result = cube(2)
 print(result)    
-
+'''
 
 # ...Without map function.......................................
 '''l = [1,2,3,4,56,6]
@@ -44,6 +44,28 @@ for item in l:
 print(newl)  '''  
 
 # ......with map function........................................
-l = [1,2,3,4,56,6]
+'''l = [1,2,3,4,56,6]
 newl=list(map(cube,l))
-print(newl)  
+print(newl)'''  
+
+
+
+# FILTER........................................
+
+'''l = [1,2,3,4,56,6]
+
+def fil_func(x):
+    return x > 4
+newl=list(filter(fil_func,l))
+print(newl)'''
+
+
+# ...REDUCE........................................
+
+from functools import reduce 
+
+num = [1,2,3,4,54,6]
+def mysum (x,y):
+    return x+y 
+sum = reduce(mysum,num)
+print(sum)
