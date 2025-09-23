@@ -62,9 +62,9 @@ print(newl)'''
 
 # ...REDUCE........................................
 
-from functools import reduce 
+'''from functools import reduce 
 
-num = [1,2,3,4,54,6]
+num = [1,2,3,4,54,6]'''
 '''def mysum (x,y):
     return x+y 
 sum = reduce(mysum,num)
@@ -72,5 +72,20 @@ print(sum)'''
 
 # while using lambda func..........................
 
-sum = reduce(lambda x,y : x+y,num)
-print(sum)
+'''sum = reduce(lambda x,y : x+y,num)
+print(sum)'''
+
+
+# Square the numbers: You have this list: numbers = [2, 3, 4, 5]. Use map() to create a new list where each number is squared. (Expected output: [4, 9, 16, 25]).
+
+numbers = [2, 3, 4, 5]
+
+def square (x):
+    return x*x
+newl = list(map(square,numbers))
+print(newl)
+
+
+
+
+# Convert to uppercase: You have this list: words = ['hello', 'world', 'python']. Use map() to create a new list where all strings are in uppercase. (Expected output: ['HELLO', 'WORLD', 'PYTHON']).
