@@ -127,13 +127,25 @@ print(newl)'''
 # reduce() Questions............................
 
 # Find the sum of a list: You have this list: numbers = [1, 2, 3, 4, 5]. Use reduce() to find the sum of all these numbers. (Expected output: 15).
-from functools import reduce
+
+'''from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 
 def sum_of(x,y):
     return x+y
 newl = reduce(sum_of ,numbers)
-print(newl)
+print(newl)'''
 
 
 # Find the largest number: You have this list: numbers = [50, 20, 100, 35, 75]. Use reduce() to find the largest number in the list. (Expected output: 100).
+
+from functools import reduce
+numbers = [50, 20, 100, 35, 75]
+
+def largest_no(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+newl = reduce(largest_no,numbers)
+print(newl)
