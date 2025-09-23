@@ -15,14 +15,28 @@ print(double(6))
 triples = lambda x : x * 3
 print(triples(5))'''
 
+'''average  = lambda x ,y,z :(x+y+z)/3 
+print(average(20,30,50))'''
+'''
 cube = lambda x : x * x * x
 print(cube(5))
-
-average  = lambda x ,y,z :(x+y+z)/3 
-print(average(20,30,50))
 
 def apple(fx,value): 
     return 2 + fx(value)
 
 result = (apple(lambda x : x * x * x,2))
-print (result)
+print (result)'''
+
+# ............MAP................................................................
+
+
+def cube(x):
+    return x*x*x
+result = cube(2)
+print(result)    
+
+l = [1,2,3,4,56,6]
+newl = []
+for item in l:
+    newl.append(cube(item))
+print(newl)    
