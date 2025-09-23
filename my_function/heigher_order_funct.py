@@ -91,7 +91,7 @@ print(newl)'''
 
 # Convert to uppercase: You have this list: words = ['hello', 'world', 'python']. Use map() to create a new list where all strings are in uppercase. (Expected output: ['HELLO', 'WORLD', 'PYTHON']).
 
-words = ['hello', 'world', 'python']
+'''words = ['hello', 'world', 'python']
 def capatalize(x):
     return x.capitalize()
 newl = list(map(capatalize,words))
@@ -99,5 +99,18 @@ print(newl)
 # using lamda function.........
 newl = list(map(lambda x:x.capitalize(),words))
 print(newl)
+'''
 
 
+# filter() Questions...............
+
+# Filter even numbers: You have this list: numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]. Use filter() to create a new list that contains only the even numbers. (Expected output: [2, 4, 6, 8, 10]).
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def even_no(x):
+    return x % 2 == 0
+newl = list(filter(even_no,numbers))
+print(newl)
+
+# Filter long strings: You have this list: names = ['raj', 'anita', 'mohan', 'suresh']. Use filter() to create a new list that contains only the names with a length greater than 4 characters. (Expected output: ['anita', 'mohan', 'suresh']).
