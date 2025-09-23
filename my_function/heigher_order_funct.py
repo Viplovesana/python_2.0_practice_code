@@ -65,7 +65,12 @@ print(newl)'''
 from functools import reduce 
 
 num = [1,2,3,4,54,6]
-def mysum (x,y):
+'''def mysum (x,y):
     return x+y 
 sum = reduce(mysum,num)
+print(sum)'''
+
+# while using lambda func..........................
+
+sum = reduce(lambda x,y : x+y,num)
 print(sum)
