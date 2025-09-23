@@ -202,7 +202,7 @@ result()'''
 # Ek decorator likho jo function ka return value double kar de.
 # (Jaise agar function 5 return kare, decorator 10 return kare.)
 
-def double(function):
+'''def double(function):
     def inner():
         function()
         return 5*2
@@ -212,7 +212,18 @@ def function():
     return 5
 
 result = double(function)
-print(result())
+print(result())'''
+
+def double(function):
+    def inner():
+        function()
+        return 5*2
+    return inner
+@double
+def function():
+    return 5
+
+print(function())
 
 
 
