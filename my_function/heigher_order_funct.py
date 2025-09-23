@@ -168,7 +168,8 @@ printer()  '''
 
 
 # WAP to add sum of numbers using decoretor..........................
-def decor(addition):
+
+'''def decor(addition):
     def inner():
         sum = addition()
         num3 = float(input("Enter the third number :-"))
@@ -181,4 +182,22 @@ def addition():
     num2 = float(input("Enter the second number :-"))
     sum = num1 + num2
     return sum
-print(addition())
+print(addition())'''
+
+# Ek decorator banao jo kisi bhi function ke execute hone se pehle aur baad ek message print kare.
+# (Example: "Starting function..." aur "Function ended.")
+
+
+def ending(starting):
+    def inner():
+        starting()
+        print("iam good thanku")
+    return inner
+ 
+def starting():
+    print("hey how wre you")
+result = ending(starting)
+result()
+
+
+
