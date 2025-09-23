@@ -188,7 +188,7 @@ print(addition())'''
 # (Example: "Starting function..." aur "Function ended.")
 
 
-def ending(starting):
+'''def ending(starting):
     def inner():
         starting()
         print("iam good thanku")
@@ -197,7 +197,22 @@ def ending(starting):
 def starting():
     print("hey how wre you")
 result = ending(starting)
-result()
+result()'''
+
+# Ek decorator likho jo function ka return value double kar de.
+# (Jaise agar function 5 return kare, decorator 10 return kare.)
+
+def double(function):
+    def inner():
+        function()
+        return 5*2
+    return inner
+
+def function():
+    return 5
+
+result = double(function)
+print(result())
 
 
 
