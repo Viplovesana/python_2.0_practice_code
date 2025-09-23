@@ -114,10 +114,26 @@ newl = list(filter(even_no,numbers))
 print(newl)'''
 
 # Filter long strings: You have this list: names = ['raj', 'anita', 'mohan', 'suresh']. Use filter() to create a new list that contains only the names with a length greater than 4 characters. (Expected output: ['anita', 'mohan', 'suresh']).
-
+'''
 names = ['raj', 'anita', 'mohan', 'suresh']
 
 def characters(x):
     return len(x) > 4
 newl=list(filter(characters,names))
+print(newl)'''
+
+
+
+# reduce() Questions............................
+
+# Find the sum of a list: You have this list: numbers = [1, 2, 3, 4, 5]. Use reduce() to find the sum of all these numbers. (Expected output: 15).
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+
+def sum_of(x,y):
+    return x+y
+newl = reduce(sum_of ,numbers)
 print(newl)
+
+
+# Find the largest number: You have this list: numbers = [50, 20, 100, 35, 75]. Use reduce() to find the largest number in the list. (Expected output: 100).
