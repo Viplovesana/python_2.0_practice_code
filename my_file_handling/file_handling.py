@@ -60,7 +60,7 @@ with open('example2.txt','r')as file:
     print(file.tell())'''
 # SEEK()....  
 
-with open('example2.txt','r')as file:
+'''with open('example2.txt','r')as file:
     print(file.tell())
     file.seek(5)
     print(file.tell())
@@ -76,12 +76,25 @@ with open('example2.txt','r')as file:
     print(file.tell())
     data3 = file.readline()
     print(data3)
+'''
 
 
-    
+
+# ....PICKLING AND UNPICKLING...................
 
 
-    # print(file.readline())
+# pickling is serialization process where a python objects convert in a byte sream
+
+import pickle
+data = ["viplove",23,"dewas",]
+
+byte = pickle.dumps(data)
+print(byte)
+
+py_object = pickle.loads(byte)
+print(py_object)
+
+
 
 
 
