@@ -15,6 +15,13 @@ file.close()
 
 file = open('example2.txt','w')
 
-content = file.write()
+content = file.write("hey jhon this is viplove on board, where are you")
+print(content)
+file.close()   
+
+# ...append mode......
+file = open('example2.txt','a')
+
+content = file.write("\nyaa i am on the way ")
 print(content)
 file.close()   
