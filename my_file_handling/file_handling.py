@@ -47,7 +47,7 @@ with open('example2.txt','r')as file:
 
 # tell() and seek() funtion.........................
 # TELL()......
-with open('example2.txt','r')as file:
+'''with open('example2.txt','r')as file:
     print(file.tell())
     content=file.readline(5)
     print(content)
@@ -57,14 +57,36 @@ with open('example2.txt','r')as file:
     print(file.tell())
     content=file.readline(4)
     print(content)
-    print(file.tell())
+    print(file.tell())'''
 # SEEK()....  
 
 with open('example2.txt','r')as file:
     print(file.tell())
-    content=file.readline(5)
-    print(content)
-    print(file.tell())  
+    file.seek(5)
+    print(file.tell())
+    file.seek(7)
+    print(file.tell())
+    data1 = file.readline()
+    print(data1)
+    file.seek(10)
+    print(file.tell())
+    data2 = file.readline()
+    print(data2)
+    file.seek(14)
+    print(file.tell())
+    data3 = file.readline()
+    print(data3)
+
+
+    
+
+
+    # print(file.readline())
+
+
+
+
+ 
 
 
 
