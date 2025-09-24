@@ -15,6 +15,6 @@ file.close()
 
 file = open('example2.txt','w')
 
-content = file.read()
+content = file.write()
 print(content)
-file.close()
+file.close()   
