@@ -99,7 +99,14 @@ file = open("rowdata.txt",'wb')
 pickle.dump(data,file)
 file.close()
 
+file = open('rowdata.txt','rb')
+data2 = pickle.load(file)
+print(data2)
+file.close()
 
+
+
+            
 
 
  
