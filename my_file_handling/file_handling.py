@@ -40,7 +40,33 @@ print(content)
 file.close()  '''
 
 # open with 'with' statement............................
-
+'''
 with open('example2.txt','r')as file:
     content=file.read()
+    print(content)'''
+
+# tell() and seek() funtion.........................
+# TELL()......
+with open('example2.txt','r')as file:
+    print(file.tell())
+    content=file.readline(5)
     print(content)
+    print(file.tell())
+    content=file.readline(2)
+    print(content)
+    print(file.tell())
+    content=file.readline(4)
+    print(content)
+    print(file.tell())
+# SEEK()....  
+
+with open('example2.txt','r')as file:
+    print(file.tell())
+    content=file.readline(5)
+    print(content)
+    print(file.tell())  
+
+
+
+
+
