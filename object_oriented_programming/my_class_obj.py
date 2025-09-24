@@ -40,7 +40,7 @@ print(s1.say_bye())'''
 
 # create student class thats take name & marks of three subjects as argument in constructor then crete a method to print the average..
 
-class Student:
+'''class Student:
     def __init__(self,fullname,mark1,mark2,mark3):
         self.name = fullname
         self.markone = mark1
@@ -51,10 +51,26 @@ class Student:
         print("average marks of",self.name,"is :-")
         return (self.markone + self.marktwo + self.markthree )//3
 
-
 s1 = Student("viplove",90,60,70)
 print(s1.name,s1.markone,s1.marktwo,s1.markthree)
-print(s1.average())
+print(s1.average())'''
+
+
+class Student:
+    def __init__(self,fullname,marks):
+        self.name = fullname
+        self.mymark = marks
+
+    def average(self):
+        sum = 0 
+        for i  in self.mymark:
+            sum = sum +i
+            
+        print("hey your average marks is",sum/3)
+
+s1 = Student("viplove",[90,60,70])
+print(s1.name,s1.mymark)
+s1.average()
 
 
 
