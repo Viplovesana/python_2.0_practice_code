@@ -86,15 +86,18 @@ with open('example2.txt','r')as file:
 # pickling is serialization process where a python objects convert in a byte sream
 
 import pickle
-data = ["viplove",23,"dewas",]
+# data = ["viplove",23,"dewas",]
 
-byte = pickle.dumps(data)
+'''byte = pickle.dumps(data)
 print(byte)
 
 py_object = pickle.loads(byte)
-print(py_object)
+print(py_object)'''
 
-
+data = ["viplove",23,"dewas",]
+file = open("rowdata.txt",'wb')
+pickle.dump(data,file)
+file.close()
 
 
 
