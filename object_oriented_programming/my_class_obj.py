@@ -5,8 +5,10 @@
 Student()    '''
 
 class Student:
-    def __init__(self,fullname):
+    def __init__(self,fullname,myage):
        self.name = fullname
-       print("viplove")
-s1 = Student("sana") 
-print(s1.name)   
+       self.age = myage
+      
+s1 = Student("viplove sana",24) 
+print(s1.name)
+print(s1.age) 
