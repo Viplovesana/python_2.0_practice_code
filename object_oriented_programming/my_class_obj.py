@@ -76,7 +76,7 @@ s1.average()'''
 
 # create account class with 2 attributes balance and account n0 create method for debit  credit and printing balance
 
-
+'''
 class Account:
     def __init__(self,balance,accno):
         self.mybalance = balance
@@ -93,15 +93,39 @@ class Account:
     def totalbalance(self):
         print ("total balance in your acc is ",self.mybalance)             
 
-
 acc1 = Account(1000,8085)
 print(acc1.mybalance,acc1.myacc) 
 acc1.credit(1000) 
 acc1.debit(200) 
 acc1.totalbalance()     
+'''
 
 
+# ....INHERITENCE.............................................
 
+# WHEREEONE CLASS USE THE propertis and methods of another class 
+
+# there are three type of inheritence arw there 
+'''
+1.single inheritence
+2.multi-level inheritence
+3.multiple inheritence'''
+
+class Car:
+    @staticmethod
+    def starts():
+        print("car started")
+    @staticmethod    
+    def stops():
+        print("car stops")  
+class Car1(Car):
+    def __init__(self,name):
+        self.name = name        
+
+s1 = Car1("toyota")
+print(s1.name)
+print(s1.starts())
+print(s1.stops())
 
 
  
