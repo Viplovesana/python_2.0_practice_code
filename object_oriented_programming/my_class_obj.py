@@ -117,13 +117,17 @@ class Car:
         print("car started")
     @staticmethod    
     def stops():
-        print("car stops")  
+        print("car stops") 
+
 class Car1(Car):
     def __init__(self,name):
         self.name = name        
+class Types(Car1):
+    def __init__(self,type):
+        self.type = type
 
-s1 = Car1("toyota")
-print(s1.name)
+s1 = Types("electric")
+print(s1.stops())
 print(s1.starts())
 print(s1.stops())
 
