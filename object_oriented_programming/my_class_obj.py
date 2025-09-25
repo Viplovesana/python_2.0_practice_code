@@ -132,7 +132,7 @@ print(s1.starts())
 print(s1.stops())'''
 
 # MULTIPLE INHERITING..................................
-class A:
+'''class A:
     def first(self):
         print("this is me first")
 class B:
@@ -142,9 +142,29 @@ class C(A,B):
     def third(self):
         print("this is me third")
 c1 = C()
-print(c1.first())        
+print(c1.first())  '''      
 
 
+# ...SUPER METHOD.......................
+
+
+class Car1():
+    def __init__(self,name):
+        self.name = name   
+    @staticmethod
+    def starts():
+        print("car started")
+    @staticmethod    
+    def stops():
+        print("car stops") 
+    
+class Types(Car1):
+    def __init__(self,type,name):
+        super().__init__(name)
+        self.type = type
+s1 = Types("electric","fortuner")
+print(s1.name)
+print(s1.type)
 
 
  
