@@ -111,7 +111,7 @@ acc1.totalbalance()
 2.multi-level inheritence
 3.multiple inheritence'''
 
-class Car:
+'''class Car:
     @staticmethod
     def starts():
         print("car started")
@@ -129,7 +129,22 @@ class Types(Car1):
 s1 = Types("electric")
 print(s1.stops())
 print(s1.starts())
-print(s1.stops())
+print(s1.stops())'''
+
+# MULTIPLE INHERITING..................................
+class A:
+    def first(self):
+        print("this is me first")
+class B:
+    def second(self):
+        print("this is me second")       
+class C(A,B): 
+    def third(self):
+        print("this is me third")
+c1 = C()
+print(c1.first())        
+
+
 
 
  
