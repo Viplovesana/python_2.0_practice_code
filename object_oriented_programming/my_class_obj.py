@@ -56,7 +56,7 @@ print(s1.name,s1.markone,s1.marktwo,s1.markthree)
 print(s1.average())'''
 
 
-class Student:
+'''class Student:
     def __init__(self,fullname,marks):
         self.name = fullname
         self.mymark = marks
@@ -70,7 +70,35 @@ class Student:
 
 s1 = Student("viplove",[90,60,70])
 print(s1.name,s1.mymark)
-s1.average()
+s1.average()'''
+
+
+
+# create account class with 2 attributes balance and account n0 create method for debit  credit and printing balance
+
+
+class Account:
+    def __init__(self,balance,accno):
+        self.mybalance = balance
+        self.myacc = accno
+    
+    def credit(self,amount):
+        self.mybalance = self.mybalance + amount
+        print ("your acount is credited",self.mybalance)
+
+    def debit(self,amount):
+        self.mybalance = self.mybalance - amount
+        print ("your acount is debited",self.mybalance)   
+
+    def totalbalance(self):
+        print ("total balance in your acc is ",self.mybalance)             
+
+
+acc1 = Account(1000,8085)
+print(acc1.mybalance,acc1.myacc) 
+acc1.credit(1000) 
+acc1.debit(200) 
+acc1.totalbalance()     
 
 
 
