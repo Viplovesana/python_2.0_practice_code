@@ -188,7 +188,16 @@ else:
     print ("this is not a leap year")'''
     
 
+# cheak wheather the steing is anagram or not .......................
 
+string1 = input("Enter the fierst string :")
+string2 = input("Enter the second string :")
+
+if sorted(string1) == sorted(string2):
+    print("these is an anagram")
+
+else:
+    print("these string is not an angram")    
 
 
 
